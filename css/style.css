@@ -1,0 +1,183 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.notice-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.notice-list ul li {
+  width: 45%;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: normal;
+  position: relative;
+  margin-left: 24px;
+  border-bottom: solid 1px #1c3d77;
+  margin-right: 30px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 0;
+}
+.notice-list ul li img {
+  margin-right: 6px;
+}
+.notice-list ul li a {
+  color: #dc3545;
+}
+section.notice > .container {
+  padding-top: 0px;
+}
+.award-and-achivments {
+  background-color: #341c77;
+}
+.main-our-warrper {
+  background: linear-gradient( 90deg , rgb(210 172 105) 35%, rgba(255,255,255,1) 35%);
+  padding: 40px 30px 40px 70px;
+}
+.school-data h2 {
+  font-size: 1.6rem;
+}
+.Our-services.owl-carousel .owl-nav button.owl-prev, .Our-services.owl-carousel .owl-nav button.owl-next {
+  background-color: transparent !important;
+  opacity: 1 !important;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.Our-services .owl-nav button.owl-prev span, .Our-services .owl-nav button.owl-next span {
+  font-size: 35px;
+}
+.Our-services .owl-nav button {
+  position: unset;
+}
+.main-our-warrper .row {
+  align-items: center;
+}
+.abt-cont {
+  background: #fff;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+.faclities-image {
+  position: relative;
+  z-index: 5;
+}
+.faclities-image:before {
+  position: absolute;
+  content: '';
+  background-color: #ed3338;
+  width: 80%;
+  height: 70%;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.widget.widget-about ul li {
+  font-size: 16px;
+  line-height: 27px;
+}
+.faclities-image:after {
+  position: absolute;
+  content: '';
+  background-color: #0000;
+  width: 80%;
+  height: 70%;
+  bottom: 60px;
+  right: 0;
+  z-index: -1;
+}
+.faclities-image img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 65px;
+}
+.modern-style {
+  padding-left: 78px;
+}
+.school-title h2 {
+  color: #fff;
+}
+.modern-box {
+  display: flex;
+  align-items: center;
+  padding: 30px 20px;
+  border-bottom: 2px solid #fff;
+}
+.modern-box a {
+  display: flex;
+  align-items: center;
+}
+.modern-box a img {
+  margin-right: 25px;
+}
+
+.modern-box img {
+  height: 30px;
+  margin-right: 20px;
+}
+.school-faclities.section-padding {
+  background-color: #341c77;
+  overflow: hidden;
+}
+.modern-box h4 {
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.btns.none {
+  padding-top: 30px;
+}
+a.btn.btn-theme-colored2.btn-sm.ajaxload-popup {
+  animation: rainbow 3s infinite, heartbeat 0.6s infinite;
+  padding: 0.6rem 1.7rem;
+}
+@keyframes heartbeat {
+	50% {
+		transform: scale(1.1);
+	}
+}
+
+@keyframes rainbow {
+	0% {
+		background: #1abc9c;
+	}
+	10% {
+		background: #2ecc71;
+	}
+	20% {
+		background: #3498db;
+	}
+	30% {
+		background: #9b59b6;
+	}
+	40% {
+		background: #e74c3c;
+	}
+	50% {
+		background: #e67e22;
+	}
+	60% {
+		background: #f1c40f;
+	}
+	70% {
+		background: #2c3e50;
+	}
+	80% {
+		background: #9b59b6;
+	}
+}
